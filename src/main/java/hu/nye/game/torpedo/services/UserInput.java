@@ -23,7 +23,7 @@ public class UserInput {
         Pattern pt = Pattern.compile(kOODTINATA_REG);
 
         while (!kilep) {
-            System.out.print("Kérem a koordinátát (pl.: a-j:1-10):");
+            System.out.print("Select Coordinates (X:Y):");
             kordinata = sc.nextLine();
 
             if (kordinata.equals("exit")){
